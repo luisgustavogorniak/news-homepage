@@ -20,11 +20,17 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
         <div className="p-4">
           {/* Adicione o conteúdo da sua sidebar aqui */}
           <ul className="mt-20 text-2xl">
-            <li className="pb-5">Home</li>
-            <li className="pb-5">New</li>
-            <li className="pb-5">Popular</li>
-            <li className="pb-5">Trending</li>
-            <li className="pb-5">Categories</li>
+            <li className="pb-5 cursor-pointer hover:text-[#f15e50]">Home</li>
+            <li className="pb-5 cursor-pointer hover:text-[#f15e50]">New</li>
+            <li className="pb-5 cursor-pointer hover:text-[#f15e50]">
+              Popular
+            </li>
+            <li className="pb-5 cursor-pointer hover:text-[#f15e50]">
+              Trending
+            </li>
+            <li className="pb-5 cursor-pointer hover:text-[#f15e50]">
+              Categories
+            </li>
           </ul>
         </div>
       </div>
